@@ -18,10 +18,10 @@ const Navigation = () => {
                 </Typography>
                 <ul className="nav-list">
                     <li className="nav-list-item">
-                        <Link to="/">Home</Link>
+                        <Link style={{fontSize: '150%'}} to="/">Home</Link>
                     </li>
                     <li className="nav-list-item">
-                        <Link to="/about">About</Link>
+                        <Link style={{fontSize: '150%'}} to="/about">About</Link>
                     </li>
                 </ul>
             </Toolbar>
