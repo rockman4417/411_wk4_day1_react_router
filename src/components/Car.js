@@ -16,9 +16,9 @@ const Car = (props) => {
 
     return (
 
-        <div>
+        <div style={{display: 'flex', justifyContent: 'center', flexDirection: 'column', alignItems: 'center'}}>
             <h1>{car.Name}</h1>
-            <div>
+            <div style={{display: 'flex', width: '500px', height: '200px', flexWrap: 'wrap'}}>
                 {Object.keys(car).map(key => {
                     return (
                     <Chip title={key} value={car[key]}/>
